@@ -1,66 +1,56 @@
 <!DOCTYPE HTML> 
 <head>
 	<title>Google</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="/Users/Nachi/Documents/the_odin_project/google-homepage/style.css">
 </head>
 <body>
-<div class="topnav">
-	<p>Mail</p>
-	<p>Images</p>
-	<img id="apps" src="/Users/Nachi/Documents/the_odin_project/google-homepage/images/square.png" />
-	<img id="bells" src="/Users/Nachi/Documents/the_odin_project/google-homepage/images/notifs.png"/>
-	<img id="N" src="/Users/Nachi/Documents/the_odin_project/google-homepage/images/N.png"/>
-</div>
 
-<div class="logo">
-	<img src="/Users/Nachi/Documents/the_odin_project/google-homepage/images/googlelogo.png" />
+	<div class="topnav">
+		<a href="https://mail.google.com/mail/?tab=wm&authuser=0">Mail</a>
+		<a href="https://www.google.co.in/imghp?hl=en&tab=wi&authuser=0&ei=gKAHWY2kBYvH0ASOsZTIAw&ved=0EKouCBkoAQ">Images</a>
+		<a class="apps" href="#"><img src="/Users/Nachi/Documents/the_odin_project/google-homepage/images/square.png" /></a>
+		<a class="bells" href="#"><img src="/Users/Nachi/Documents/the_odin_project/google-homepage/images/notifs.png"/></a>
+		<a class="N"><img id="N" src="/Users/Nachi/Documents/the_odin_project/google-homepage/images/N.png"/></a>
+	</div>
+
+<div class="logo" title="Google">
+	<img src="https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" />
 </div>
 
 <div class="searchbox">
-	<forms> 
-	<input type="text">
-	</forms>
+	<input type="text" maxlength="2048" name="q" autocomplete="off" title="Search" spellcheck="false">
 </div>
 
 <div class="buttons"> 
- 	<forms> 
- 		<input type="submit" value="Google Search" name="Google Search">
- 		<input type="submit" value="I'm Feeling Lucky" name="I'm Feeling Lucky">
- 	</forms>
+ 	<input type="submit" value="Google Search" name="Google Search">
+ 	<input type="submit" value="I'm Feeling Lucky" name="I'm Feeling Lucky">
 </div>
 
 <div class="belowsearch">
-	<p>Google.co.in offered in:</p>
-	<ul>
-		<li><a href="#">Hindi</a></li>
-		<li><a href="#">Telugu</a></li>
-		<li><a href="#">Tamil</a></li>
-		<li><a href="#">Urdu</a></li>
-		<li><a href="#">Marathi</a></li>
-		<li><a href="#">Gujrati</a></li>
-		<li><a href="#">Spanish</a></li>
-		<li><a href="#">French</a></li>
-		<li><a href="#">Dothraki</a></li>
-	</ul>
+		<span>Google.co.in offered in:</span>
+		<a href="#">Hindi</a>
+		<a href="#">Telugu</a>
+		<a href="#">Tamil</a>
+		<a href="#">Urdu</a>
+		<a href="#">Marathi</a>
+		<a href="#">Gujrati</a>
+		<a href="#">Spanish</a>
+		<a href="#">French</a>
+		<a href="#">Dothraki</a>
 </div>
 
 <div class="footer">
-	<div class="l.footer">
-		<ul>
-			<li>Advertising</li>
-			<li>Business</li>
-			<li>About</li>
-		</ul>
-	</div>
-
-	<div class="r.footer">
-		<ul>
-			<li>Privacy</li>
-			<li>Terms</li>
-			<li>Settings</li>
-			<li>Use Google.com</li>
-		</ul>
-	</div>
+	<span class="left-footer">
+		<a href="#">Advertising</a>
+		<a href="#">Business</a>
+		<a href="#">About</a>
+	</span>
+	<span class="right-footer">
+		<a href="#">Privacy</a>
+		<a href="#">Terms</a>
+		<a href="#">Settings</a>
+		<a href="#">Use Google.com</a>
+	</span>
 </div>
 
 </body>
